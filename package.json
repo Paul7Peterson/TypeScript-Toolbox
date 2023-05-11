@@ -1,0 +1,37 @@
+{
+  "name": "@paul7peterson/typescript-toolbox",
+  "version": "0.0.1",
+  "description": "TypeScript package for common types and methods.",
+  "author": {
+    "name": "Pablo Pérez Chueca",
+    "email": "paul7peterson@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "Pablo Pérez Chueca",
+      "email": "paul7peterson@gmail.com"
+    }
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/*",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc --project tsconfig.app.json",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "typescript": "^5.0.2",
+    "zx": "4.3.0"
+  },
+  "devDependencies": {
+    "@rimbu/typical": "^0.4.2",
+    "@types/node": "^18.7.23",
+    "rxjs": "^7.5.6",
+    "vitest": "^0.28.5"
+  }
+}

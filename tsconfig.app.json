@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.json",
+  "exclude": [
+    "dist",
+    "src/**/__mocks__",
+    "src/**/*.spec.ts",
+    "src/**/*.typeCheck.ts",
+  ]
+}
